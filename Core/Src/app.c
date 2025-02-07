@@ -35,7 +35,7 @@ void app(){
 
 		//값비교
 		if(distance <= 5) {
-			timeoutDoor = 10000;
+			timeoutDoor = 50000;
 			HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, 1);
 
 		}
